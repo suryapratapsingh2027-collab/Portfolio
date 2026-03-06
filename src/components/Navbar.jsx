@@ -27,7 +27,7 @@ const Navbar = () => {
         }, [darkMode])
 
   return (
-      <div className='flex justify-between items-center fixed max-w-7xl mx-auto px-4 h-20 top-0 shadow-2xl bg-white dark:bg-gray-950 dark:text-white'>
+      <div className='flex justify-between items-center fixed px-4 md:w-[1400px]  max-sm:w-[430px] h-20 top-0 shadow-2xl bg-white dark:bg-gray-950 dark:text-white'>
       <div className=' items-center flex '><h1 className='text-4xl text-yellow-600 flex items-center'><ChevronLeft/>S.P<ChevronRight/></h1></div>
       <div className='p-5 hidden md:flex gap-6 text-2xl'>
         <a className='hover:text-amber-400 duration-300 transition-all' href="#home">Home</a>

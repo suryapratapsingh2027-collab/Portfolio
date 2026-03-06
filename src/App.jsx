@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div className='dark:bg-gray-950 w-full flex flex-col'>
+    <div className='dark:bg-gray-950 h-screen flex flex-col'>
      <Navbar />
      <Home />
      <About />
