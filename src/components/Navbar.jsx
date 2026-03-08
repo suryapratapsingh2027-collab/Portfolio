@@ -27,8 +27,8 @@ const Navbar = () => {
         }, [darkMode])
 
   return (
-      <div className='flex justify-between items-center fixed px-4 md:w-[1400px]  max-sm:w-[300px] h-20 top-0 shadow-2xl bg-white dark:bg-gray-950 dark:text-white'>
-      <div className=' items-center flex '><h1 className='text-4xl text-yellow-600 flex items-center'><ChevronLeft/>S.P<ChevronRight/></h1></div>
+      <div className='flex justify-between items-center fixed z-50 px-4 w-full max-w-9xl h-20 top-0 shadow-2xl bg-white dark:bg-gray-950 dark:text-white'>
+      <div className=' items-center flex '><h1 className='text-2xl text-yellow-600 flex items-center'><ChevronLeft/>S.P<ChevronRight/></h1></div>
       <div className='p-5 hidden md:flex gap-6 text-2xl'>
         <a className='hover:text-amber-400 duration-300 transition-all' href="#home">Home</a>
         <a className='hover:text-amber-400 duration-300 transition-all' href="#about">About</a>
@@ -48,12 +48,12 @@ const Navbar = () => {
 
 
       {isOpen && (
-        <div className="absolute top-20 left-0 w-full bg-white flex flex-col items-center gap-6 py-6 md:hidden shadow-lg">
-          <a>Home</a>
-          <a>About</a>
-          <a>Projects</a>
-          <a>Education</a>
-          <a>Contact</a>
+        <div className="fixed dark:bg-gray-950 dark:text-white top-20 left-0 w-full bg-white flex flex-col items-center gap-6 py-6 md:hidden shadow-lg">
+          <a  onClick={() => setIsOpen(false)} href='#home'>Home</a>
+          <a  onClick={() => setIsOpen(false)} href='#about'>About</a>
+          <a  onClick={() => setIsOpen(false)} href='#project'>Projects</a>
+          <a  onClick={() => setIsOpen(false)} href='#education'>Education</a>
+          <a  onClick={() => setIsOpen(false)} href='#contact'>Contact</a>
         </div>
       )}
     </div>

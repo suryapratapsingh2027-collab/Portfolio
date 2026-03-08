@@ -5,16 +5,16 @@ import { ExternalLink, FolderCodeIcon, FolderOpenDotIcon, Github } from 'lucide-
 
 const Project = () => {
   return (
-    <div id='project' className='mt-50'>
+    <div id='project' className='mt-20'>
       <div className='flex gap-5 justify-center items-center'>
-        <h1 className='text-4xl text-center dark:text-white'>Projects</h1>
-        <FolderCodeIcon className='size-10 text-purple-600' />
+        <h1 className='text-2xl text-center dark:text-white'>Projects</h1>
+        <FolderCodeIcon className='size-5 text-purple-600' />
       </div>
-      <div className='flex mt-10 justify-center p-5'>
-        <div className='md:grid md:grid-cols-3 md:gap-10 p-5 w-400'>
+      <div className='flex mt-10 justify-center p-5 gap-10'>
+        <div className='md:grid md:grid-cols-3 md:gap-10 grid-cols-1 p-5 w-400'>
 
-        <div className='flex flex-col p-5 h-110 rounded-lg dark:bg-gray-950 bg-gray-50 shadow-2xl shadow-gray-300 dark:shadow-gray-900'>
-            <div className='relative group overflow-hidden h-50 w-full p-5 mb-5'>
+        <div className='flex flex-col p-5 h-90 rounded-lg dark:bg-gray-950 bg-gray-50 shadow-2xl shadow-gray-300 dark:shadow-gray-900'>
+            <div className='relative group overflow-hidden h-40 w-full p-5 mb-2'>
               <img className='' src={project1} alt="" />
               <div className="absolute inset-0 bg-black/60 flex items-center justify-center gap-4
                 opacity-0 group-hover:opacity-100 transition-all duration-200 translate-x-0 group-hover:translate-x-5">
@@ -27,8 +27,8 @@ const Project = () => {
                 </div>
             </div>
             
-            <h1 className='text-3xl font-normal mt-5 dark:text-white'>AI Resume Builder</h1>
-            <p className='text-2xl text-gray-500 mt-3'>Tech: MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind</p>
+            <h1 className='text-[20px] font-normal mt-2 dark:text-white'>AI Resume Builder</h1>
+            <p className='text-[15px] text-gray-500 mt-3'>Tech: MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind</p>
         </div>
          <div className='flex flex-col p-5 rounded-lg dark:bg-gray-950 bg-gray-50 shadow-2xl shadow-gray-300 dark:shadow-gray-900'>
             <div className='relative group overflow-hidden h-50 w-full p-5 mb-5'>
@@ -43,8 +43,8 @@ const Project = () => {
                   </a>
                 </div>
             </div>
-            <h1 className='text-3xl font-normal mt-5 dark:text-white'>Notes App</h1>
-            <p className='text-2xl text-gray-500 mt-3'>Tech: Frontend Project - ReactJS, Tailwind CSS</p>
+            <h1 className='text-[20px] font-normal mt-2 dark:text-white'>Notes App</h1>
+            <p className='text-[15px] text-gray-500 mt-3'>Tech: Frontend Project - ReactJS, Tailwind CSS</p>
         </div>
          <div className='flex flex-col p-5 rounded-lg dark:bg-gray-950 bg-gray-50 shadow-2xl shadow-gray-300 dark:shadow-gray-900'>
             <div className='relative group overflow-hidden h-50 w-full p-5 mb-5'>
@@ -59,8 +59,8 @@ const Project = () => {
                   </a>
                 </div>
             </div>
-            <h1 className='text-3xl font-normal mt-5 dark:text-white'>AI Resume Builder</h1>
-            <p className='text-2xl text-gray-500 mt-3'>Tech: MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind</p>
+            <h1 className='text-[20px] font-normal mt-5 dark:text-white'>AI Resume Builder</h1>
+            <p className='text-[15px] text-gray-500 mt-3'>Tech: MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind</p>
         </div>
          <div className='flex flex-col p-5 rounded-lg dark:bg-gray-950 bg-gray-50 shadow-2xl shadow-gray-300 dark:shadow-gray-900'>
             <div className='relative group overflow-hidden h-50 w-full p-5 mb-5'>
@@ -75,8 +75,8 @@ const Project = () => {
                   </a>
                 </div>
             </div>
-            <h1 className='text-3xl font-normal mt-5 dark:text-white'>AI Resume Builder</h1>
-            <p className='text-2xl text-gray-500 mt-3'>Tech: MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind</p>
+            <h1 className='text-[20px] font-normal mt-5 dark:text-white'>AI Resume Builder</h1>
+            <p className='text-[15px] text-gray-500 mt-3'>Tech: MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind</p>
         </div>
          <div className='flex flex-col p-5 rounded-lg dark:bg-gray-950 bg-gray-50 shadow-2xl shadow-gray-300 dark:shadow-gray-900'>
             <div className='relative group overflow-hidden h-50 w-full p-5 mb-5'>
@@ -91,8 +91,8 @@ const Project = () => {
                   </a>
                 </div>
             </div>
-            <h1 className='text-3xl font-normal mt-5 dark:text-white'>AI Resume Builder</h1>
-            <p className='text-2xl text-gray-500 mt-3'>Tech: MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind</p>
+            <h1 className='text-[20px] font-normal mt-5 dark:text-white'>AI Resume Builder</h1>
+            <p className='text-[20px] text-gray-500 mt-3'>Tech: MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind</p>
         </div>
       </div>
       </div>
