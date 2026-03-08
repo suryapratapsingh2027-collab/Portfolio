@@ -36,7 +36,7 @@ const Contact = () => {
         <div className=' size-100'><img src={contact} alt="" /></div>
         <div className='flex flex-col gap-5 items-center justify-center'>
             <p className='text-[20px] md:text-2xl dark:text-white'>Let's get in touch 🚀</p>
-            <form ref={formRef} onSubmit={sendEmail} className='flex items-start flex-col gap-3 p-4 w-100 bg-white dark:bg-gray-950 rounded-lg'>
+            <form ref={formRef} onSubmit={sendEmail} className='flex items-start flex-col gap-3 p-4 bg-white dark:bg-gray-950 rounded-lg'>
                 <input className='p-4 text-[12px] md:text-[20px] m-5 outline-none text-gray-500' name='user_name' type="text" placeholder=' Enter Your full name' />
                 <input className='p-4 text-[12px] md:text-[20px] m-5 outline-none text-gray-500' name='user_email' type="email" placeholder='Enter email' required />
                 <textarea className='p-4 md:text-[20px] text-[12px] m-5 outline-none text-gray-500' name='message' type="text" placeholder='Message' />
