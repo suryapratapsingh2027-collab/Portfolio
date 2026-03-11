@@ -1,9 +1,15 @@
 import { LocateIcon, Mail, Map, Phone } from 'lucide-react'
 import React from 'react'
+import {motion} from 'framer-motion'
 
 const Footer = () => {
   return (
-    <div className='mt-20 bg-purple-600 dark:bg-gray-950 w-full max-w-9xl'>
+    <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+     className='mt-20 bg-purple-600 dark:bg-gray-950 w-full max-w-9xl'>
         <div className='flex md:flex-row md:justify-around flex-col md:items-center p-5 py-5'>
       <div className='flex flex-col gap-5'>
         <p className='text-[12px] md:text-2xl text-yellow-600 font-normal'>❤️ Surya's Portfolio</p>
@@ -30,7 +36,7 @@ const Footer = () => {
     <div className='flex justify-center pb-5'>
         <p className='md:text-[20px] text-[10px] text-white'>🔥 Turning ideas into scalable web experiences.</p>
     </div>
-    </div>
+    </motion.div>
   )
 }
 

@@ -2,10 +2,17 @@ import React from 'react'
 import project1 from '../assets/project1.png'
 import project2 from '../assets/project2.png'
 import { ExternalLink, FolderCodeIcon, FolderOpenDotIcon, Github } from 'lucide-react'
+import {motion} from 'framer-motion'
 
 const Project = () => {
   return (
-    <div id='project' className='mt-20'>
+    <motion.div
+
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+     id='project' className='mt-20'>
       <div className='flex gap-5 justify-center items-center'>
         <h1 className='text-2xl text-center dark:text-white'>Projects</h1>
         <FolderCodeIcon className='size-5 text-purple-600' />
@@ -92,11 +99,11 @@ const Project = () => {
                 </div>
             </div>
             <h1 className='text-[20px] font-normal mt-5 dark:text-white'>AI Resume Builder</h1>
-            <p className='text-[20px] text-gray-500 mt-3'>Tech: MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind</p>
+            <p className='text-[15px] text-gray-500 mt-3'>Tech: MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind</p>
         </div>
       </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
