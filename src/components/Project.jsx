@@ -34,7 +34,7 @@ const Project = () => {
                 </div>
             </div>
             
-            <h1 className='text-[20px] font-normal mt-2 dark:text-white'>AI Resume Builder</h1>
+            <h1 className='text-[20px] font-normal mt-2 dark:text-white'>AI Resume Analyzer</h1>
             <p className='text-[15px] text-gray-500 mt-3'>Tech: MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind</p>
         </div>
          <div className='flex flex-col p-5 rounded-lg dark:bg-gray-950 bg-gray-50 shadow-2xl shadow-gray-300 dark:shadow-gray-900'>
@@ -52,54 +52,6 @@ const Project = () => {
             </div>
             <h1 className='text-[20px] font-normal mt-2 dark:text-white'>Notes App</h1>
             <p className='text-[15px] text-gray-500 mt-3'>Tech: Frontend Project - ReactJS, Tailwind CSS</p>
-        </div>
-         <div className='flex flex-col p-5 rounded-lg dark:bg-gray-950 bg-gray-50 shadow-2xl shadow-gray-300 dark:shadow-gray-900'>
-            <div className='relative group overflow-hidden h-50 w-full p-5 mb-5'>
-              <img className='' src={project1} alt="" />
-              <div className="absolute inset-0 bg-black/60 flex items-center justify-center gap-4
-                opacity-0 group-hover:opacity-100 transition-all duration-200 translate-x-0 group-hover:translate-x-5">
-                  <a href="https://github.com" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute left-55">
-                  <Github className="w-5 h-5 text-black" />
-                  </a>
-                  <a href="https://example.com" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute left-40">
-                    <ExternalLink className="w-5 h-5 text-black" />
-                  </a>
-                </div>
-            </div>
-            <h1 className='text-[20px] font-normal mt-5 dark:text-white'>AI Resume Builder</h1>
-            <p className='text-[15px] text-gray-500 mt-3'>Tech: MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind</p>
-        </div>
-         <div className='flex flex-col p-5 rounded-lg dark:bg-gray-950 bg-gray-50 shadow-2xl shadow-gray-300 dark:shadow-gray-900'>
-            <div className='relative group overflow-hidden h-50 w-full p-5 mb-5'>
-              <img className='' src={project1} alt="" />
-              <div className="absolute inset-0 bg-black/60 flex items-center justify-center gap-4
-                opacity-0 group-hover:opacity-100 transition-all duration-200 translate-x-0 group-hover:translate-x-5">
-                  <a href="https://github.com" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute left-55">
-                  <Github className="w-5 h-5 text-black" />
-                  </a>
-                  <a href="https://example.com" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute left-40">
-                    <ExternalLink className="w-5 h-5 text-black" />
-                  </a>
-                </div>
-            </div>
-            <h1 className='text-[20px] font-normal mt-5 dark:text-white'>AI Resume Builder</h1>
-            <p className='text-[15px] text-gray-500 mt-3'>Tech: MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind</p>
-        </div>
-         <div className='flex flex-col p-5 rounded-lg dark:bg-gray-950 bg-gray-50 shadow-2xl shadow-gray-300 dark:shadow-gray-900'>
-            <div className='relative group overflow-hidden h-50 w-full p-5 mb-5'>
-              <img className='' src={project1} alt="" />
-              <div className="absolute inset-0 bg-black/60 flex items-center justify-center gap-4
-                opacity-0 group-hover:opacity-100 transition-all duration-200 translate-x-0 group-hover:translate-x-5">
-                  <a href="https://github.com" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute left-55">
-                  <Github className="w-5 h-5 text-black" />
-                  </a>
-                  <a href="https://example.com" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute left-40">
-                    <ExternalLink className="w-5 h-5 text-black" />
-                  </a>
-                </div>
-            </div>
-            <h1 className='text-[20px] font-normal mt-5 dark:text-white'>AI Resume Builder</h1>
-            <p className='text-[15px] text-gray-500 mt-3'>Tech: MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind</p>
         </div>
       </div>
       </div>

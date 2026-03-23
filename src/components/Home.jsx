@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import avtar from '../assets/avtar.png'
 import { Download, Github, Instagram, Linkedin } from 'lucide-react'
-import Resume from '../assets/Resume.pdf'
+import Resume from '../assets/Surya_Resume.pdf'
 import {motion} from 'framer-motion'
 
 const Home = () => {
