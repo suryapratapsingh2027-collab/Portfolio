@@ -58,7 +58,6 @@ const Home = () => {
         <h3 className='text-[20px] dark:text-white md:text-2xl mt-5'>I am into <span className='text-purple-600 font-medium'>{domain} {cursor}</span></h3>
         <p className='md:text-[18px] text-[12px] mt-3 dark:text-white text-gray-500'>I focus on developing user-friendly web applications <br /> that meet the client's requirements,<br /> with attention to detail, scalability, and performance.</p>
         <div className='flex justify-center md:justify-start gap-5 mt-5'>
-           <a href="https://www.instagram.com/master_of______will?igsh=ZDg5aHNuZzk2NDMy"> <Instagram  className='hover:text-amber-400 duration-300 dark:text-purple-600 transition-all cursor-pointer size-5'/></a>
             <a href="https://www.linkedin.com/in/surya-pratap-singh-solanki-03a9a9265?utm_source=share_via&utm_content=profile&utm_medium=member_android"><Linkedin className='hover:text-amber-400 duration-300 dark:text-purple-600 transition-all cursor-pointer size-5' /></a>
             <a href="https://github.com/"><Github className='hover:text-amber-400 duration-300 dark:text-purple-600 transition-all cursor-pointer size-5' /></a>
         </div>

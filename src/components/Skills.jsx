@@ -54,7 +54,7 @@ const Skills = () => {
         </div>
         <div className=' w-full max-w-2xl flex flex-col items-center p-3 bg-pink-100'>
             <img className='h-30 w-30' src={Motion} alt="" />
-             <h1 className='mt-5'>Motiom</h1>
+             <h1 className='mt-5'>Motion</h1>
         </div>
         <div className=' w-full max-w-2xl flex flex-col items-center p-3 bg-orange-100'>
             <img className='h-30 w-30' src={git} alt="" />

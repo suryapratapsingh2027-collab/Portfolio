@@ -25,7 +25,7 @@ const Footer = () => {
       </div>
       <div className='flex flex-col items-start'>
         <p className=' md:text-2xl text-[12px] mb-5 text-white mt-7'>Contact</p>
-        <p className='flex items-center gap-5 text-white text-[10px] md:text-[15px] transition-all duration-300 hover:text-yellow-600 mb-3'><Phone className='size-3' /> +91  XXX XXX XXXX</p>
+        <p className='flex items-center gap-5 text-white text-[10px] md:text-[15px] transition-all duration-300 hover:text-yellow-600 mb-3'><Phone className='size-3' /> +91 6265892027</p>
         <p className='flex items-center gap-5 text-white md:text-[15px] transition-all duration-300 hover:text-yellow-600 mb-3 text-[10px]'><Mail className='size-3'/> suryapratapsingh2027@gmail.com</p>
         <p className='flex items-center gap-5 text-white md:text-[15px] transition-all duration-300 hover:text-yellow-600 mb-3 text-[10px]'><Map className='size-3'/> Vidisha, Madhya Pradesh - 464001</p>
       </div>
