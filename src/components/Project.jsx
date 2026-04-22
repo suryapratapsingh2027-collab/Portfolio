@@ -25,11 +25,11 @@ const Project = () => {
             <div className='relative group overflow-hidden h-40 w-full p-5 mb-2'>
               <img className='' src={project1} alt="" />
               <div className="absolute inset-0 bg-black/60 flex items-center justify-center gap-4
-                opacity-0 group-hover:opacity-100 transition-all duration-200 translate-x-0 group-hover:translate-x-5">
-                  <a href="https://github.com/suryapratapsingh2027-collab/AI-Resume-Analyzer" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute left-55">
+                md:opacity-0 md:group-hover:opacity-100 transition-all duration-200 translate-x-0 group-hover:translate-x-5">
+                  <a href="https://github.com/suryapratapsingh2027-collab/AI-Resume-Analyzer" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute md:left-55 left-35">
                   <Github className="w-5 h-5 text-black" />
                   </a>
-                  <a href="https://ai-resume-analyzer-1-trtc.onrender.com/login" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute left-40">
+                  <a href="https://ai-resume-analyzer-1-trtc.onrender.com/login" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute md:left-40 left-20">
                     <ExternalLink className="w-5 h-5 text-black" />
                   </a>
                 </div>
@@ -42,11 +42,11 @@ const Project = () => {
             <div className='relative group overflow-hidden h-50 w-full p-5 mb-5'>
               <img className='' src={project2} alt="" />
               <div className="absolute inset-0 bg-black/60 flex items-center justify-center gap-4
-                opacity-0 group-hover:opacity-100 transition-all duration-200 translate-x-0 group-hover:translate-x-5">
-                  <a href="https://github.com/suryapratapsingh2027-collab/notesapp" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute left-55">
+                md:opacity-0 md:group-hover:opacity-100 transition-all duration-200 translate-x-0 group-hover:translate-x-5">
+                  <a href="https://github.com/suryapratapsingh2027-collab/notesapp" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute md:left-55 left-35">
                   <Github className="w-5 h-5 text-black" />
                   </a>
-                  <a href="https://suryapratapsingh2027-collab.github.io/notesapp/" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute left-40">
+                  <a href="https://suryapratapsingh2027-collab.github.io/notesapp/" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute md:left-40 left-20">
                     <ExternalLink className="w-5 h-5 text-black" />
                   </a>
                 </div>
@@ -58,11 +58,11 @@ const Project = () => {
             <div className='relative group overflow-hidden h-50 w-full p-5 mb-5'>
               <img className='' src={project3} alt="" />
               <div className="absolute inset-0 bg-black/60 flex items-center justify-center gap-4
-                opacity-0 group-hover:opacity-100 transition-all duration-200 translate-x-0 group-hover:translate-x-5">
-                  <a href="https://github.com/suryapratapsingh2027-collab/Portfolio" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute left-55">
+                md:opacity-0 md:group-hover:opacity-100 transition-all duration-200 translate-x-0 group-hover:translate-x-5">
+                  <a href="https://github.com/suryapratapsingh2027-collab/Portfolio" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute md:left-55 left-35">
                   <Github className="w-5 h-5 text-black" />
                   </a>
-                  <a href="https://suryapratapsingh2027-collab.github.io/Portfolio/" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute left-40">
+                  <a href="https://suryapratapsingh2027-collab.github.io/Portfolio/" target="_blank" className="p-3 bg-white rounded-full hover:scale-110 transition-all absolute md:left-40 left-20">
                     <ExternalLink className="w-5 h-5 text-black" />
                   </a>
                 </div>
